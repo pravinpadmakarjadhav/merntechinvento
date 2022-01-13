@@ -20,21 +20,7 @@ const PORT = process.env.PORT;
 
 
 
-//// I just comment out the below about section 
-// app.get('/about', (req, res) => {
-//     console.log(`Hello my About`);
-//     res.send(`Hello About world from the server`);
-// });
 
-// app.get('/contact', (req, res) => {
-//     // res.cookie("Test", 'thapa');
-//     res.send(`Hello Contact world from the server`);
-
-// });
-
-// app.get('/signin', (req, res) => {
-//     res.send(`Hello Login world from the server`);
-// });
 
 app.get('/signup', (req, res) => {
     res.send(`Hello Registration world from the server`);
